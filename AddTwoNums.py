@@ -1,4 +1,4 @@
-a = 15
-b = 12
+a = int(input("Enter first number:"))
+b = int(input("Enter second number:"))
 res = a + b
-print(res)
+print(f"Sum:{res}")
