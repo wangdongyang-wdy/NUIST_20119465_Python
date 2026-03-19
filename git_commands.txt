@@ -1,0 +1,151 @@
+    4  git init
+    9  git add hello1.txt hello2.txt
+   10  git hello 1.txt hello2.txt
+   15  git rm hello
+  113  git init
+  117  git init
+  121  git add hello1.txt hello2.txt
+  122  git commit -a -m "Adding test files hello1.txt and hello2,txt"
+  123  git config -- global user.name"Dongyang"
+  124  git config --global user.name"Dongyang"
+  125  git config --global user.email"20119465setu.ie"
+  126  git add hello1.txt and hello2.txt
+  127  git commit -a -m "Adding test files hello1.txt and hello2.txt"
+  128  git config --global user.name "Dongyang"
+  129  git config --global user.email "20119465setu.ie"
+  130  [200~ git commit -a -m "Adding test files hello1.txt and hello2.txt"
+  132  git commit -a -m "Adding test files hello1.txt and hello2.txt"
+  133  git log
+  134  git rm hello1.txt
+  136  echo 'Hello World! git rocks!' >> hello2.txt
+  139  git status
+  140  git diff hello2.txt
+  141  git log
+  142  [200~echo 'Hello World! git rocks!' >> hello2.txt
+  143  echo 'Hello World! git rocks!' >> hello2.txt
+  144  git add hello2.txt
+  145  git commit -a -m "Update hello2.txt: add git rocks"
+  146  git log
+  147  git diff < ff854ba2ad06e4366eaeead911e0a9ef55e4e54d> <a31a956ed8ce6f3b37509f45cbd1401349571c77>
+  148  git diff ff854ba a31a956 hello2.txt
+  149  git reset HEAD hello2.txt
+  150  git checkout hello2.txt
+  151  git checkout ff854ba
+  152  git revert HEAD~3
+  156  git help
+  157  git config --global user.name "Dongyang"
+  158  git config --global alias.co chekout
+  159  git log
+  160  touch .gitignore
+  173  git status
+  174  git branch
+  175  git branch assignment2
+  176  git checkout assignment2
+  177  git branch
+  180  git status
+  181  git add Test2.txt
+  182  git commit -m "Test2.txt added to repository"
+  183  git status
+  184  git branch
+  185  git checkout master
+  186  git checkout main
+  187  git merge assignment2
+  189  git branch
+  191  git --version
+  199  git clone https://github.com/wangdongyang-wdy/NUIST_ProjectSem2_2026.git
+  201  git clone 
+  202  git clone [200~https://github.com/wangdongyang-wdy/NUIST_ProjectSem2_2026.git~ 
+  203  git clone https://github.com/wangdongyang-wdy/NUIST_ProjectSem2_2026.git
+  204  git -ail
+  206  git --version
+  207  git clone https://github.com/wangdongyang-wdy/NUIST_ProjectSem2_2026.git
+  208  git clone https://github.com/wangdongyang-wdy/20119465Lab2a.txt.git
+  213  git add Test3.txt
+  214  git inti
+  215  git init
+  217  git init
+  219  git add hello1.txt
+  220  git commit -m "hello1.txt added to repo"
+  222  git add hello2.txt
+  223  git commit -m "hello2.txt added to the repository"
+  225  git add Test2.txt
+  226  git commit -m"Test2.txt added to repo"
+  228  git add Test3.txt
+  229  git commit -m "Test.txt added to the repository"
+  230  git remote add origin https://github.com/wangdongyang-wdy/Lab4.git
+  231  git branch -M main
+  232  git push -u origin main
+  233  git remote add origin https://github.com/wangdongyang-wdy/Lab4.git
+  234  git branch -M main
+  235  git push -u origin main
+  236  git branch -M main
+  237  git push -u origin main
+  242  git status
+  243  git branch
+  244  git branch assignment2
+  245  git checkout assignment
+  246  git checkout assignment2
+  248  git status
+  249  git add Test2.txt
+  250  git commit -m "Test.txt added to repository"
+  251  git status
+  252  git checkout master
+  253  git checkout main
+  254  git merge assignment2
+  259  git status
+  260  git init
+  261  git status
+  262  git add test1
+  263  git commit -m "Update test1.photo"
+  264  git add test2
+  265  git commit -m"Update test2.photo"
+  266  git add test3
+  267  git commit -m"Update test3.photo"
+  268  git add test4
+  269  git commit -m"Update test4.photo"
+  270  git log
+  271  git remote add origin https://github.com/wangdongyang-wdy/Lab-o.git
+  272  git branch -M main
+  273  git push -u origin main
+  274  git branch -M main
+  275  git push -u origin main
+  276  git branch -M main
+  277  git push -u origin main
+  292  git add *.py
+  293  git init
+  294  git add *.py
+  295  git remote add origin https://github.com/wangdongyang-wdy/Lab1.git
+  296  git branch -M main
+  297  git push -u origin main
+  298  git branch -M main
+  299  git push -u origin main
+  300  git commit -m"Add Python exercises Ex1.py to Ex6.py"
+  301  git branch -M main
+  302  git push -u origin main
+  303  git log --oneline
+  315  git clone 
+  316  git clone https://github.com/wangdongyang-wdy/NUIST_20119465_Python.git
+  336  git init
+  337  git status
+  338  git add AddTwoNums.py
+  339  git commit -m"feat:add version 1(fixed numbers)"
+  340  git log
+  341  git push origin main
+  347  git status
+  348  git add AddTwoNums.py
+  349  git commit -m"feat:update to version 2(user input)"
+  350  git log
+  351  git push origin main
+  352  git push origin main
+  353  git push origin main
+  354  git push origin main
+  355  git push origin main
+  356  git push origin main
+  360  git status
+  361  git add AddTwoNums.py
+  362  git commit -m"feat:update to version 3(function)"
+  363  git log
+  364  git push origin main
+  365  git push origin main
+  366  git push origin main
+  369  history | grep "git">git_commands.txt
